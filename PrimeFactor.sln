@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactor", "PrimeFactor\PrimeFactor.csproj", "{FADEE5B4-34F2-4772-A8F2-3396FC54319B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactor.Test", "PrimeFactor.Test\PrimeFactor.Test.csproj", "{450B8A1A-64ED-40A7-8278-FC93A83EE208}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{FADEE5B4-34F2-4772-A8F2-3396FC54319B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FADEE5B4-34F2-4772-A8F2-3396FC54319B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FADEE5B4-34F2-4772-A8F2-3396FC54319B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450B8A1A-64ED-40A7-8278-FC93A83EE208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450B8A1A-64ED-40A7-8278-FC93A83EE208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450B8A1A-64ED-40A7-8278-FC93A83EE208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450B8A1A-64ED-40A7-8278-FC93A83EE208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 754f196c-09e0-4401-a3ce-19bd5ef7d4d2
 	EndGlobalSection
 EndGlobal
